@@ -9,12 +9,19 @@
 <body>
 <main>
     <header>
-        <input type="color"> 
-        <select>
-        <option> Placeholder </option>
-        <option> Placeholder 2</option>    
+       <form id="color-form">
+        <input type="color" id="color-input" name="user-color"> 
+        <select id="scheme" name="color-schemes">
+        <option> Monochrome </option>
+        <option> Monochrome-dark</option>
+        <option> Monochrome-light </option>
+        <option> Analogic </option>  
+        <option> Complement </option>
+        <option> Analogic-complement </option>  
+        <option> Triad </option>    
         </select>
-        <button id="get-color"> Get color scheme </button>
+        <button id="get-color" type="submit"> Get color scheme </button>
+        </form> 
     </header>
 
     <section>

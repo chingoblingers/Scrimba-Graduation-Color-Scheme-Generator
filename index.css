@@ -1,6 +1,23 @@
 html{
     font-size: 62.5%;
+
 }
 body{
     font-size: 1.6rem;
+
+}
+main{
+    border: 2px solid black;
+    margin: 0 auto;
+}
+header,section{
+padding: 1em 2em;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    
 }
